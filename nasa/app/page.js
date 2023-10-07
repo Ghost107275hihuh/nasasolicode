@@ -1,9 +1,12 @@
-import Image from 'next/image'
+import react from "react"
 
 export default function Home() {
   return (
     <>
-      <h1>hello world</h1>
+      <header style={{display:"flex", alignItems:"center", justifyContent: "center"}}>
+        <img src="https://images.nasa.gov/images/nasa_logo-large.png?as=webp" ></img>
+        <h1 style={{color: "white"}}>NASA Image and Video Library</h1>
+      </header>
     </>
   )
 }
